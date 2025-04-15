@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 
 const corsOptions = {
-    origin: "https://dreme-job-3yax.vercel.app",
+    origin: true,
     credentials: true,
 }
 
